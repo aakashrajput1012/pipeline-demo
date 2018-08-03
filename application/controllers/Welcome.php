@@ -26,4 +26,8 @@ class Welcome extends CI_Controller {
 	public function newfile(){
 		$this->load->view('newfile');
 	}
+
+	public function newfile1(){
+		$this->load->view('newfile1');
+	}
 }
